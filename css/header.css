@@ -1,0 +1,36 @@
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(6, 0, 24, 0.7)), url(/img/bg1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container {
+    display: block;
+    text-align: center;
+    width: 600px;
+}
+
+.hero-container img {
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.hero-container h1 {
+    font-size: 40px;
+}
+
+.hero-p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #f5ea76;
+}

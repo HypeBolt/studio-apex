@@ -1,0 +1,41 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: rgb(6, 0, 24);
+    color: white;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.linkzone {
+    background-color: rgb(18, 18, 18);
+    border: 3px solid #f5ea76;
+    border-radius: 30px;
+    width: 40vw;
+    padding: 20px;
+    display: block;
+    margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #00a9ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0095e1;
+}
